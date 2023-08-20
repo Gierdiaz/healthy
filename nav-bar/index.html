@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NavBar</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <!--Boxicons-->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <!--Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora&family=Roboto:wght@300&family=Rubik:wght@300&display=swap" rel="stylesheet">
+</head> 
+<body>
+    <header id="header">
+        <div class="nav-logo">
+            <a href="">Sauce</a>
+        </div>
+        <nav class="nav-bar">  
+            <div>
+                <a href="#">Home</a>
+                <a href="javascript:void(0);">About</a>
+                <a href="javascript:void(0);">Service</a>
+                <a href="javascript:void(0);">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div id="mainSlider" class="carousel slide" data-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#mainSlider" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#mainSlider" data-bs-slide-to="1" class="active" aria-current="true" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#mainSlider" data-bs-slide-to="2" class="active" aria-current="true" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#mainSlider" data-bs-slide-to="2" class="active" aria-current="true" aria-label="Slide 4"></button>
+              </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="food-health/carousel_1.jpg" alt="First slide">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2>Variedade de Nutrientes</h2>
+                        <p>Uma boa alimentação é o alicerce de uma vida vibrante, nutrindo corpo e mente com escolhas saudáveis.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="food-health/carousel_2.jpg" alt="Second slide">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2>Alimentos Integrais</h2>
+                        <p>Cultive o bem-estar através da sua alimentação, colhendo energia e vitalidade a cada garfada.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="food-health/carousel_3.jpg" alt="Third slide">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2>Equilíbrio e Moderação</h2>
+                        <p>Seu corpo é seu templo, e uma alimentação equilibrada é a base para construir uma saúde duradoura.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="food-health/carousel_4.jpg" alt="Four slide">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2>Conscientização Alimentar</h2>
+                        <p>Sabor e saúde se encontram no prato de quem escolhe a variedade de alimentos como chave para uma vida plena.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#mainSlider" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#mainSlider" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </main>
+
+    <section id="container-health">
+        <div class="container">
+            <h2>Nutrindo sua vida, um bocado saudável de cada vez!</h2>
+        </div>
+    </section>
+
+    <div>
+        <img src="img/backgroundHealthy.jpg" alt="">
+    </div>
+
+    <footer id="footer" class="row">
+        <div class="footer-content col-md">
+            <a class="footer-logo">Sauce</a>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi ut reprehenderit ipsum laudantium debitis ab ex, neque non at est laborum numquam, sint recusandae eius</p>
+            <div class="icons">
+                <a href="#"><i class='bx bxl-facebook-circle'></i></a>
+                <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+                <a href="#"><i class='bx bxl-tiktok'></i></a>
+                <a href="#"><i class='bx bxl-twitter'></i></a>
+            </div>
+        </div>
+        <div class="footer-content col-md">
+            <h4>Project</h4>
+            <li><a href="">Oficinas Culinárias</a></li>
+            <li><a href="">Hortas Comunitárias</a></li>
+            <li><a href="">Aplicativo de Receitas</a></li>
+            <li><a href="">Saudável nas Redes Sociais</a></li>
+        </div>
+        <div class="footer-content col-md">
+            <h4>Company</h4>
+            <li><a href="">How we work</a></li>
+            <li><a href="">Capital</a></li>
+            <li><a href="">Security</a></li>
+            <li><a href="">Sellings</a></li>
+        </div>
+        <div class="footer-content col-md">
+            <h4>Movement</h4>
+            <li><a href="">Movement</a></li>
+            <li><a href="">Support us</a></li>
+            <li><a href="">Princing</a></li>
+            <li><a href="">Renting</a></li>
+        </div>
+        <div class="footer-content col-md">
+            <h4>Help</h4>
+            <li><a href="">Privacy</a></li>
+            <li><a href="">Condition</a></li>
+            <li><a href="">Blog</a></li>
+            <li><a href="">FAQs</a></li>
+        </div>
+    </footer>
+    <div class="sub-footer">
+        <p>copyright &copy;2023 Sauce. Designed by <span>Állison Diaz</span> All Rigths Reserved</p>
+    </div>
+
+    <script src="https://unpkg.com/boxicons@2.1.3/dist/boxicons.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>
