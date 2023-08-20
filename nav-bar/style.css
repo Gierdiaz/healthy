@@ -66,6 +66,8 @@ img {
 #container-health h2 {
     margin: 300px 0px 300px 0;
     text-align: center;
+    font-size: 40px;
+    color: rgb(150, 95, 24);;
 }
 
 /* __MAIN SLIDER__ */
@@ -100,7 +102,8 @@ img {
     display: flex;
     padding: 80px 8% 70px;
     gap: 3.5rem;
-    background-color: rgb(150, 95, 24)
+    background-color: rgb(150, 95, 24);
+    overflow: hidden;
 }
 
 #footer .footer-content .footer-logo {
@@ -162,5 +165,5 @@ img {
 
 .sub-footer span {
     text-transform: capitalize;
-    opacity: .4;
+    opacity: .8;
 }
